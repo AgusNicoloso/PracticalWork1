@@ -1,6 +1,5 @@
 package clases;
 
-import java.util.Iterator;
 import java.util.List;
 
 public class Vikingo extends Humano implements Comparable<Vikingo> {
@@ -21,8 +20,8 @@ public class Vikingo extends Humano implements Comparable<Vikingo> {
     }
 
     public static void mostrarlista(List<Vikingo> listvikingo) {
-        for (Iterator it = listvikingo.iterator(); it.hasNext();) {
-            System.out.println(it.next());
+        for (Vikingo list : listvikingo ) {
+            System.out.println(list);
         }
     }
 

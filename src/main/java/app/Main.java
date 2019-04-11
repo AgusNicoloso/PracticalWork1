@@ -28,6 +28,8 @@ public class Main {
         System.out.println("----------A beber----------");
         //Los pongo a beber
         CampoBatalla.batalla(listvikingo.get(0), listespartano.get(0));
+
+
     }
 
 }

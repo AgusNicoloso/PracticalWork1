@@ -9,7 +9,7 @@ public class OrinarEspartanoImp implements Orinar {
 
     @Override
     public String orinar() {
-        return "Espartano orinando";
+        return "Espartano orinando, no aguante";
     }
 
 }

@@ -11,6 +11,7 @@ public class CampoBatalla {
                 if (bebidasvikingo == 0) {
                     bebidasvikingo++;
                 }
+                System.out.println(v.Orinar());
                 break;
             } else {
                 int randomvelocidad = (int) (Math.random() * (2 - 0) + 0);
@@ -27,6 +28,7 @@ public class CampoBatalla {
                 if (bebidasEspartano == 0) {
                     bebidasEspartano++;
                 }
+                System.out.println(e.Orinar());
                 break;
             } else {
                 bebidasEspartano++;
@@ -42,10 +44,9 @@ public class CampoBatalla {
         } else if (bebidasEspartano < bebidasvikingo) {
             System.out.println("----------Ganador----------");
             System.out.println("Gano el Vikingo : " + v.getNombre());
-            ConectarBD.insertar("INSERT INTO ganadores (nombre_ganador, bebida_en_cuerpo) VALUES ('" + v.getNombre() + "', " + bebidasvikingo + ")");
+           ConectarBD.insertar("INSERT INTO ganadores (nombre_ganador, bebida_en_cuerpo) VALUES ('" + v.getNombre() + "', " + bebidasvikingo + ")");
         } else {
             System.out.println("----------Empate----------");
         }
     }
-
 }
