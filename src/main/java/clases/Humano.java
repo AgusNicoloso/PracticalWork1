@@ -11,6 +11,7 @@ public class Humano {
     private Orinar Orinar;
     private Beber Beber;
 
+    //Constructor del humano
     public Humano(String Nombre, Integer Edad, Integer Peso, Orinar Orinar, Beber Beber) {
         this.Nombre = Nombre;
         this.Edad = Edad;
@@ -51,6 +52,7 @@ public class Humano {
         return this.Beber.beber();
     }
 
+    //Muestro los datos del humano
     @Override
     public String toString() {
         return "\nNombre: " + Nombre + "\nEdad: " + Edad + "\nPeso: " + Peso;
