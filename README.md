@@ -1,3 +1,7 @@
+<p align="center">
+  <img src ="https://i.ibb.co/hMZF1bQ/tp-Interfaces.png" />
+</p>
+
 # 🍻 Torneo de frescas - Maven 🍻
 
 ## ¿Qué es Maven?
